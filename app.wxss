@@ -1,0 +1,31 @@
+/**app.wxss**/
+view, image, text, navigator, scroll-view, swiper, swiper-item, cover-view, cover-image, movable-area, movable-view, rich-text {
+  box-sizing: border-box;  
+}
+text {
+  font-size: 24rpx;
+}
+image {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+icon {
+  display: inline;
+  font-size: 24rpx;
+}
+button:after {
+  border: 0;
+}
+page {
+  color: #353535;
+  background: #fafafa;
+}
+.full-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}

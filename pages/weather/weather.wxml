@@ -1,0 +1,8 @@
+<div class="full-page">
+    <view class="weather-container">
+        <view class="weather-item" wx:for="{{weatherData}}" wx:key="{{index}}">{{item.text}}: {{item.data}}</view>
+        <view class="live-weather">
+            <view class="live-item">发布时间: {{liveData.reporttime}}</view>
+        </view>
+    </view>
+</div>

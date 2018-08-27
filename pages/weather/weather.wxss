@@ -1,0 +1,19 @@
+.full-page {
+    display: flex;
+    justify-content: center;
+    background: #1296db;
+}
+.weather-container {
+    margin-top: 120rpx;
+    color: #fff;
+}
+.weather-item {
+    margin-bottom: 30rpx; 
+}
+.live-weather {
+    position: absolute;
+    bottom: 60rpx;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}

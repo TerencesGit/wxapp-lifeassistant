@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/travel/travel",
+    "pages/around/around",
+    "pages/search/search",
+    "pages/weather/weather",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "生活小助手",
+    "navigationBarTextStyle":"black"
+  }
+}

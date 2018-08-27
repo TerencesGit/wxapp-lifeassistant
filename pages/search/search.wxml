@@ -1,0 +1,8 @@
+<view class="page">
+    <view class="section">
+        <input bindinput="bindInput" value="{{city}}" placeholder="搜索周边(仅限北京地区)" focus="true"/>
+    </view>
+    <view bindtouchstart="bindSearch" data-keywords="{{i.name}}" class="text_box" wx:for="{{tips}}" wx:for-item="i" wx:key="{{index}}">
+    {{i.name}}
+    </view>
+</view>
